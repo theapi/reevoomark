@@ -1,0 +1,11 @@
+
+reevoomark.settings_form:
+  path: '/admin/config/reevoomark/settings'
+  defaults:
+    _form: '\Drupal\reevoomark\Form\SettingsForm'
+    _title: 'SettingsForm'
+  requirements:
+    _permission: 'administer reevoomark settings'
+  options:
+    _admin_route: TRUE
+

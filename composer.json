@@ -1,0 +1,14 @@
+{
+  "name": "drupal/reevoomark",
+  "type": "drupal-module",
+  "description": "A module for ReevooMark customers who want to quickly and easily integrate Reevoo content in to their sites server-side.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/reevoomark",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/reevoomark",
+    "source": "http://cgit.drupalcode.org/reevoomark"
+  },
+  "require": { }
+}

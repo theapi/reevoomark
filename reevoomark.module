@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains reevoomark.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function reevoomark_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the reevoomark module.
+    case 'help.page.reevoomark':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('A module for ReevooMark customers who want to quickly and easily integrate Reevoo content in to their sites server-side.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

@@ -1,0 +1,6 @@
+name: Reevoomark
+type: module
+description: A module for ReevooMark customers who want to quickly and easily integrate Reevoo content in to their sites server-side.
+core: 8.x
+package: Custom
+

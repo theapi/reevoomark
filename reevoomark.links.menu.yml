@@ -1,0 +1,7 @@
+reevoomark.settings_form:
+  title: 'Reevoomark Settings Form'
+  route_name: reevoomark.settings_form
+  description: 'Manage Revoomark settings'
+  parent: system.admin_config_system
+  weight: 99
+
